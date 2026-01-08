@@ -1,0 +1,72 @@
+{
+  "name": "claude-code-pr-automation",
+  "version": "1.0.0",
+  "description": "Automate your entire pull request review workflow with AI-powered agents",
+  "author": "fanioz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fanioz/claude-code-pr-automation.git"
+  },
+  "keywords": [
+    "claude-code",
+    "pull-request",
+    "code-review",
+    "automation",
+    "github",
+    "ai",
+    "agents",
+    "workflow",
+    "dev-tools"
+  ],
+  "categories": [
+    "Development Tools",
+    "Code Review",
+    "Automation",
+    "GitHub"
+  ],
+  "skills": [
+    {
+      "name": "pr-automation",
+      "path": "skills/pr-automation/SKILL.md",
+      "description": "Automated PR review workflow with 5 specialized AI agents"
+    }
+  ],
+  "requirements": {
+    "claude-code": ">=1.0.0",
+    "tools": [
+      "gh"
+    ]
+  },
+  "capabilities": [
+    "Automated code review",
+    "Multi-agent parallel analysis",
+    "Issue detection and categorization",
+    "Automated fixes with approval",
+    "Iterative improvement",
+    "GitHub integration"
+  ],
+  "agents": [
+    "code-reviewer",
+    "silent-failure-hunter",
+    "type-design-analyzer",
+    "pr-test-analyzer",
+    "comment-analyzer"
+  ],
+  "platforms": [
+    "github"
+  ],
+  "languages": [
+    "typescript",
+    "javascript",
+    "python",
+    "go",
+    "rust",
+    "java",
+    "cpp"
+  ],
+  "homepage": "https://github.com/fanioz/claude-code-pr-automation#readme",
+  "bugs": "https://github.com/fanioz/claude-code-pr-automation/issues",
+  "docs": "https://github.com/fanioz/claude-code-pr-automation/wiki",
+  "changelog": "https://github.com/fanioz/claude-code-pr-automation/blob/main/CHANGELOG.md"
+}
