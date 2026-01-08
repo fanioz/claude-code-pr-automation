@@ -61,13 +61,33 @@
 
 ## Installation
 
-### Option 1: Install from Marketplace (Recommended)
+### Option 1: Install as Plugin (Recommended) ⭐
+
+**Easy installation and updates via plugin system!**
 
 ```bash
-# Coming soon to Claude Code Plugin Marketplace
+# Add marketplace (one-time setup)
+/plugin marketplace add https://github.com/fanioz/claude-code-pr-automation
+
+# Install the plugin
+/plugin install pr-automation
+
+# Or install directly from GitHub
+/plugin install https://github.com/fanioz/claude-code-pr-automation
+
+# Verify installation
+/plugin list
+# Should show: pr-automation
 ```
 
-### Option 2: Manual Installation
+**Benefits of plugin installation:**
+- ✅ Easy installation with one command
+- ✅ Automatic updates via `/plugin marketplace update`
+- ✅ Clean uninstall with `/plugin uninstall pr-automation`
+- ✅ Scoped installation (user/project/local)
+- ✅ Version management
+
+### Option 2: Manual Installation (Skill Only)
 
 ```bash
 # Clone the repository
