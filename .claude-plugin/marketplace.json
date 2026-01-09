@@ -1,0 +1,28 @@
+{
+  "plugins": [
+    {
+      "name": "pr-automation",
+      "description": "Automate your entire pull request review workflow with AI-powered agents. Review, fix, and iterate until merge-ready in minutes.",
+      "version": "1.0.0",
+      "author": "fanioz",
+      "license": "MIT",
+      "homepage": "https://github.com/fanioz/claude-code-pr-automation#readme",
+      "repository": "https://github.com/fanioz/claude-code-pr-automation",
+      "keywords": [
+        "pull-request",
+        "code-review",
+        "automation",
+        "github",
+        "ai",
+        "agents",
+        "workflow",
+        "dev-tools"
+      ],
+      "categories": [
+        "Development Tools",
+        "Code Review",
+        "Automation"
+      ]
+    }
+  ]
+}
